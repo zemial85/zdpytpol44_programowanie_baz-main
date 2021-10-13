@@ -8,8 +8,8 @@ connection = engine.connect()
 stmt = 'SELECT * FROM census'
 
 # Wykonaj zapytanie i pobierz wynik
-result_proxy = connection.execute(stmt)
-results = result_proxy.fetchall()
+results = connection.execute(stmt).fetchall()
+
 
 # Wyświetl wynik
 print(results)
