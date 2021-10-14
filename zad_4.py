@@ -2,14 +2,13 @@ from sqlalchemy import create_engine
 engine = create_engine('sqlite:///census.sqlite')
 
 # Stwórz połączenie z bazą
-connection = engine.connect()
+connection = ____
 
 # Zbuduj instrukcję select do tabeli census
-stmt = 'SELECT * FROM census'
+stmt = ____
 
 # Wykonaj zapytanie i pobierz wynik
-results = connection.execute(stmt).fetchall()
-
+results = ____
 
 # Wyświetl wynik
-print(results)
+print(____)

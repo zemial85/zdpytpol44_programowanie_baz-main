@@ -7,10 +7,10 @@ engine = create_engine('sqlite:///census.sqlite')
 metadata = MetaData()
 
 # Odbij tabelę census z bazy census
-census = Table('census', metadata, autoload=True, autoload_with=engine)
+census = ____(____, ____, autoload=____, autoload_with=____)
 
 # Wyświetl nazwy kolumn
-print(census.columns.keys())
+print(____)
 
 # Wyświetl pełne metadane o tabeli census
-print(repr(census))
+print(repr(____))
